@@ -16,11 +16,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Disable
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/disable/master/_listings/aws-code-pipeline/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Code Pipeline API - Disable Stage Transition
+  x-api-slug: actiondisablestagetransition-get
+  description: |-
+    Prevents artifacts in a pipeline from transitioning to the next stage in the
+                pipeline.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disable/master/_listings/aws-code-pipeline/actiondisablestagetransition-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.cloudwatch.api.gallery.streamdata.io

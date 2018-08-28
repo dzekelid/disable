@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS CloudWatch
 x-complete: 1
@@ -28,4 +27,3 @@ paths:
           description: OK
       tags:
       - Alarm Actions
----

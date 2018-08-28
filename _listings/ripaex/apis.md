@@ -8,11 +8,21 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28880-ripa
 x-kinRank: "7"
 x-alexaRank: "1669824"
 tags: Disable
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/disable/master/_listings/ripaex/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: RIPA Node Documentation - Delegates Forging Disable
+  x-api-slug: apidelegatesforgingdisable-post
+  description: Disable forging for a delegate.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28880-ripaex-io.jpg
+  humanURL: http://www.ripaex.io
+  baseURL: https://api.ripaex.io//
+  tags: Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/disable/master/_listings/ripaex/apidelegatesforgingdisable-post-openapi.md
 x-common:
 - type: x-documentation
   url: https://test.ripaex.io/
